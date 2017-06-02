@@ -2,44 +2,134 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Blasting off with bootstrap</title>
+    <title>Blasting off with bootstra</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css">
   </head>
   <body>
+  <div class="navbar navbar-inverse navbar-static-top">
     <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>Blasting off with bootstrap</h1>
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Blasting off with bootstrap</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= ".navbar-collapse">
+          <spa class="sr-only">Toggle Navigation </spa>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <ul class="nav navbar-nav navbar-right collapse navbar-collapse" >
+        <li><a href="#">Tickest</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Station</a></li>
+        <li>
+          <a href=""data-toggle="dropdown">About <i class="caret"></i></a>
+            <ul class="dropdown-menu">
+              <LI><a href="#">Our story</a></LI>
+              <LI><a href="#">Contac us</a></LI>
+              <li class="divider"></li>
+              <LI><a href="#">Blog</a></LI>
+              <li class="divider"></li>
+              <LI><a href="#">Twitter</a></LI>
+              <LI><a href="#">Facebook</a></LI>
+            </ul>
+          </li>
+      </ul>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row well well-l">
+        <div class="col-md-6">
+          <h2>The fastest way to space</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime expedita autem tempore quia. Possimus consequuntur dolores eaque, quidem architecto porro.</p>
+          <button type="button" class="btn btn-lg btn-default" >take the tour</button>
+          <button type="button" class="btn btn-lg btn-primary">Book today</button>
+        </div>
+
+        <div class="col-md-6 visible-md visible-lg">
+          <img src="img/network_coverage.png" alt="my picture" width="500">
+        </div>
+      </div>
+
+      <diiv class="row text-center features">
+        <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+          <i class="glyphicon glyphicon-briefcase"> </i>
+          <h3>Book today</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque facere error fugiat temporibus quisquam earum dolorem impedit tempore asperiores voluptates.</p>
+        </div>
+
+        <div class="col-sm-4 col-xs-6">
+          <i class="glyphicon glyphicon-random"></i>
+          <h3>Go AnyWhere</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda temporibus voluptates molestias necessitatibus, atque. Exercitationem excepturi, tenetur amet assumenda dolorum!</p>
+        </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <i class="glyphicon glyphicon-send"></i>
+            <h3>Rocket Bus&reg;</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eos cupiditate iure corporis ipsum neque. Magnam, nemo at. Similique, veniam?</p>
+          </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <h2>The fastest way do space</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem laboriosam ipsa nisi quia expedita, repellendus consequatur nesciunt accusamus vero ullam.</p>
-        <button type="button" >take the tour</button>
-        <button type="button" name="button">Book today</button>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <h4>who we are</h4>
+            <p>
+              blasting of with bootstrap is the fastest way to space.
+              <a href="#">Book your Tickets Today</a>
+            </p>
+            <p>
+              <a href="#">More About Us <i class="glyphicon glyphicon-arrow-right"></i></a>
+            </p>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-3">
+            <h4>link</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">home</a></li>
+              <li><a href="#">Tickets</a></li>
+              <li><a href="#">station</a></li>
+            </ul>
+          </div>
+          <div class="clearfix visible-xs">
+
+          </div>
+
+          <div class="col-xs-6 col-sm-2 col-md-3">
+            <h4>Stay in touch</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contac Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <h4>Contact Us</h4>
+            <ul class="list-unstyled">
+              <!-- globo -->
+              <li>
+                <i class="glyphicon glyphicon-globe"></i>Callejon del estudiante #3</li>
+              <!-- telefono -->
+              <li>
+                <i class="glyphicon glyphicon-earphone">(044)2383863288</i>
+              </li>
+              <!-- gmail -->
+              <li>
+                <i class="glyphicon glyphicon-envelope"></i><a href="#">max.romero.perez@gmail.com</a></i>
+              </li>
+            </ul>
+          </div>
+          </div>
+        <!-- /.row -->
       </div>
-      <div class="col-md-6 visible-md visible-sp">
-        <img src="img/database_icon.jpg" alt="my picture" width="150">
-      </div>
+      <!-- /.container -->
     </div>
-    <div class="row">
-      <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
-        <h3>book today </h3>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus unde ipsa cupiditate, quos sunt ducimus harum repudiandae eius dicta veritatis.</P>
-      </div>
-      <div class="col-md-4 col-xs-6">
-        <h3>Go anywhere</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi nesciunt ipsum id suscipit nemo laborum odit voluptatum repellendus corporis!</p>
-      </div>
-    <div class="col-md-4 col-xs-6">
-      <h3>Rocket Bus&reg;</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur debitis vel sequi fuga eveniet molestias velit dolor quidem commodi voluptatum.</p>
-    </div>
-    </div>
-    </div>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></scr>
+    <!-- /.footer -->
+<script src="bower_components/jquery/dist/jquery.js" ></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
